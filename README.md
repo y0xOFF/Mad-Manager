@@ -11,6 +11,10 @@ Simple, Lightweight and Open Source Mod Manager for Mad Max on PC
 
 * To enable a mod, check it's box. Mad Manager will automatically copy it's dropzone content to the game's dropzone. Disabling a mod adds a .disabled extension to the mod's file(s). To delete a mod, right click it in Mad Manager and Delete.
 
+## Notes
+* Not backwards compatible with previous mods installed with the old version. Make sure to disable your mods and delete their manifest files. Also delete the old version of Mad Manager.
+* Requires Windows 10+. C++ and Dear ImGui are embedded into Mad Manager. No external dependencies required.
+
 ## Changelogs
 
 * Project rebuilt from Python to C++ and [Dear ImGui](https://github.com/ocornut/imgui)
